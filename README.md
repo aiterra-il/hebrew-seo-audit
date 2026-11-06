@@ -18,6 +18,12 @@
 npx hebrew-seo-audit www.example.co.il
 ```
 
+או ישר מ-GitHub:
+
+```bash
+npx github:aiterra-il/hebrew-seo-audit www.example.co.il
+```
+
 כל האתר, לפי מפת האתר, עם דוח בעברית:
 
 ```bash
