@@ -3,6 +3,7 @@
 # hebrew-seo-audit · בדיקת SEO לאתרים בעברית
 
 [![npm](https://img.shields.io/npm/v/hebrew-seo-audit?color=2447D6)](https://www.npmjs.com/package/hebrew-seo-audit)
+[![tests](https://github.com/aiterra-il/hebrew-seo-audit/actions/workflows/tests.yml/badge.svg)](https://github.com/aiterra-il/hebrew-seo-audit/actions/workflows/tests.yml)
 [![license](https://img.shields.io/badge/license-MIT-3E96F9)](LICENSE)
 ![dependencies](https://img.shields.io/badge/dependencies-0-060B22)
 
