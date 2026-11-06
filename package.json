@@ -1,0 +1,28 @@
+{
+  "name": "hebrew-seo-audit",
+  "version": "1.0.0",
+  "description": "SEO and GEO audit for Hebrew and Israeli websites: lang and dir=rtl, Hebrew titles and descriptions, canonical, hreflang, JSON-LD, accessibility statement (Israeli regulation 35E), AI crawlers in robots.txt, llms.txt. CLI with a Hebrew RTL HTML report",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "bin": { "hebrew-seo-audit": "cli.js" },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./report": "./report.js"
+  },
+  "files": ["index.js", "index.d.ts", "report.js", "cli.js"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test.js",
+    "test:live": "LIVE=1 node --test test.js"
+  },
+  "keywords": ["seo", "geo", "audit", "hebrew", "israel", "rtl", "accessibility", "נגישות", "קידום אתרים", "robots.txt", "llms.txt", "cli"],
+  "author": "Aiterra <info@aiterra.co.il> (https://www.aiterra.co.il)",
+  "license": "MIT",
+  "homepage": "https://github.com/aiterra-il/hebrew-seo-audit#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/aiterra-il/hebrew-seo-audit.git" },
+  "bugs": { "url": "https://github.com/aiterra-il/hebrew-seo-audit/issues" }
+}
